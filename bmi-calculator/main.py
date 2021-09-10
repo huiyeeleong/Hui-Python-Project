@@ -9,14 +9,14 @@ bmi = int(bmi)
 if bmi <= 18:
   print("Your BMI is " + str(bmi) + ", you are underweight")
 
-elif bmi == 22:
+elif bmi < 25:
   print("Your BMI is " + str(bmi) + ", you have a normal weight")
 
-elif bmi >=28:
+elif bmi < 30:
   print("Your BMI is " + str(bmi) + ", you are slightly overweight.")
 
-elif bmi >=33:
+elif bmi < 35:
   print("Your BMI is " + str(bmi) + ", you are obese.")
 
-elif bmi >=33:
+else:
   print("Your BMI is " + str(bmi) + ", you are clinically obese.")
